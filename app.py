@@ -126,7 +126,7 @@ def user_input_features():
     return user_data
 
 model = xgb.Booster()
-model.load_model('xgb_model3.json')
+model.load_model('/xgb_model3.json')
 
 
 # Streamlit interface to display prediction
