@@ -26,7 +26,7 @@
     streamlit run app.py
     ```
 
-2. Open your web browser and go to `http://localhost:8501` to interact with the application.
+2. Open your web browser and go to `https://drneuron.streamlit.app` to interact with the application.
 
 ## Application Details
 
