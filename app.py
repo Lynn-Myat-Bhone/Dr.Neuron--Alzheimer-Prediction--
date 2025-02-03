@@ -120,8 +120,8 @@ def user_input_features():
     # Reindex to match model columns, fill missing columns with 0
     user_data = user_data.reindex(columns=model_columns, fill_value=0)
 
-    # Debug: Check the user data
-    st.write(f"User Data: {user_data}")
+    # # Debug: Check the user data
+    # st.write(f"User Data: {user_data}")
 
     return user_data
 
