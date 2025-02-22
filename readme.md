@@ -53,16 +53,11 @@ The model expects the following features:
 - Income Level
 - Stress Levels
 - Gender_Male
-- Physical Activity Level_1
-- Physical Activity Level_2
-- Smoking Status_Former
-- Smoking Status_Never
-- Alcohol Consumption_Occasionally
-- Alcohol Consumption_Regularly
-- Dietary Habits_Healthy
-- Dietary Habits_Unhealthy
-- Employment Status_Retired
-- Employment Status_Unemployed
+- Physical Activity Level_
+- Smoking Status
+- Alcohol Consumption
+- Dietary Habits
+- Employment Status
 
 ## Prediction
 
@@ -78,3 +73,5 @@ This project is licensed under the MIT License.
 
 - The application uses [Streamlit](https://streamlit.io/) for the web interface.
 - The model is built using [XGBoost](https://xgboost.readthedocs.io/).
+## NOTE
+- This is for Demo and Still need a lot of improvements.
